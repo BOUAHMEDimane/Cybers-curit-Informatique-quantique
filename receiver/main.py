@@ -3,7 +3,7 @@ import cryptocode
 
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 
 def read_key():
     f = open("../shared_photons/key.txt", "r")

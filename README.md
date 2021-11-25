@@ -6,7 +6,7 @@ Il faut installer python, pip et virtualenv
 
 2. Creer un environnement virtuuel
 
-``virtualenv env`
+`virtualenv env`
 `.\env\Scripts\activate`
 
 3. Installer les dependances
